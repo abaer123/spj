@@ -1,0 +1,8 @@
+version: 1
+type: gradle
+resolver:
+    repo: default-gradle-virtual
+    serverId: abaer123
+deployer:
+    repo: default-gradle-virtual
+    serverId: abaer123

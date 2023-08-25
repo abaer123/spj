@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+    serverId: abaer123
+    snapshotRepo: default-maven-virtual
+    releaseRepo: default-maven-virtual
+deployer:
+    serverId: abaer123
+    snapshotRepo: default-maven-virtual
+    releaseRepo: default-maven-virtual
