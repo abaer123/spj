@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <servers>
+    <server>
+      <username>abaer1234@gmail.com</username>
+      <password>cmVmdGtuOjAxOjE3MjQ0ODA3NzE6aVlWUXF6OTFNaHVFY0NnQVRSazdrdGQwcXdM</password>
+      <id>central</id>
+    </server>
+    <server>
+      <username>abaer1234@gmail.com</username>
+      <password>cmVmdGtuOjAxOjE3MjQ0ODA3NzE6aVlWUXF6OTFNaHVFY0NnQVRSazdrdGQwcXdM</password>
+      <id>snapshots</id>
+    </server>
+  </servers>
+  <profiles>
+    <profile>
+      <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>spj-libs-snapshot</name>
+          <url>https://abaer123.jfrog.io/artifactory/spj-libs-snapshot</url>
+        </repository>
+        <repository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>spj-libs-snapshot</name>
+          <url>https://abaer123.jfrog.io/artifactory/spj-libs-snapshot</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>spj-libs-snapshot</name>
+          <url>https://abaer123.jfrog.io/artifactory/spj-libs-snapshot</url>
+        </pluginRepository>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>spj-libs-snapshot</name>
+          <url>https://abaer123.jfrog.io/artifactory/spj-libs-snapshot</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <id>artifactory</id>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>artifactory</activeProfile>
+  </activeProfiles>
+</settings>
+
