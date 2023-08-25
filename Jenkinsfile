@@ -28,25 +28,13 @@ pipeline {
         stage('Preparation') {
             steps {
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/abaer123/spj.git']])
-            }
-        }
-        stage('Build') {
-            steps {
-                //
                 sh './mvnw  -B -Dmaven.test.failure.ignore compile'
-            }
-        }
-        stage('Test') {
-            steps {
-                //
                 sh './mvnw  -B -Dmaven.test.failure.ignore test'
-            }
-        }
-        stage('Deploy') {
-            steps {
                 sh './mvnw  -B -Dmaven.test.failure.ignore deploy'
             }
         }
+        
+        
     }
 }
 
