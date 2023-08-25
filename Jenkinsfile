@@ -1,6 +1,6 @@
 
 node {
-    // // Get Artifactory server instance, defined in the Artifactory Plugin administration page.
+    // Get Artifactory server instance, defined in the Artifactory Plugin administration page.
     // def server = Artifactory.server "SERVER_ID"
     // // Create an Artifactory Maven instance.
     // def rtMaven = Artifactory.newMavenBuild()
@@ -20,19 +20,23 @@ node {
 
     stage('Maven build') {
         // buildInfo = rtMaven.run pom: 'maven-example/pom.xml', goals: 'clean install'
-          sh "./mvnw  -B -Dmaven.test.failure.ignore compile"
+        sh './mvnw  -B -Dmaven.test.failure.ignore compile'
     }
 
     stage('Maven test') {
         // buildInfo = rtMaven.run pom: 'maven-example/pom.xml', goals: 'clean install'
-          sh "./mvnw  -B -Dmaven.test.failure.ignore test"
+        sh './mvnw  -B -Dmaven.test.failure.ignore test'
+    }
+
+    stage('Maven deploy') {
+        // buildInfo = rtMaven.run pom: 'maven-example/pom.xml', goals: 'clean install'
+        sh './mvnw  -B -Dmaven.test.failure.ignore test'
     }
 
     // stage('Publish build info') {
     //     server.publishBuildInfo buildInfo
     // }
 }
-
     
 
 // import groovy.json.*
