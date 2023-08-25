@@ -3,6 +3,11 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
 
 
+## Notes:
+Run container image using command "docker run -p 9090:8080 spring-petclinic:latest" since my port 8080 was running Jenkins.
+Deploying to Artifactory https://abaer123.jfrog.io/ui/repos/tree/General/libs-snapshot  See "settings.xml" and "pom.xml" files.  Need to fix test failure on deploy.
+Security_Info directory includes snapshot SBOM using X-Ray
+
 
 
 ## Understanding the Spring Petclinic application with a few diagrams
