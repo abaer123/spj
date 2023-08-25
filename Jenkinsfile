@@ -90,16 +90,16 @@ node {
 //       }
 
 
-      sh "echo current build status ${currentBuild.result}"
-      /*
-      if (currentBuild.result == 'FAILURE') {
-        postGitHub(commitId, 'failure', 'build', 'Build failed')
-        return
-      } else {
-        postGitHub(commitId, 'success', 'build', 'Build succeeded')
-      } */
+//       sh "echo current build status ${currentBuild.result}"
+//       /*
+//       if (currentBuild.result == 'FAILURE') {
+//         postGitHub(commitId, 'failure', 'build', 'Build failed')
+//         return
+//       } else {
+//         postGitHub(commitId, 'success', 'build', 'Build succeeded')
+//       } */
       
-   }
+//    }
 
    
 //    stage('Lifecycle Evaluation'){
