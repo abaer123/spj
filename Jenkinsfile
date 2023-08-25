@@ -1,5 +1,7 @@
 
-node {
+import groovy.json.*
+
+node () {
   
     stage('git source') {
         // git 'https://github.com/abaer123/spj.git'
