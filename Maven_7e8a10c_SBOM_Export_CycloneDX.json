@@ -1,0 +1,1942 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:7f54b9f6-cb7a-423a-5872-aa59b3401435",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-08-25T07:04:08Z",
+    "tools": [
+      {
+        "vendor": "JFrog Inc.",
+        "name": "Xray",
+        "version": "3.80.9"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "org.springframework.samples:spring-petclinic",
+      "version": "3.1.0-SNAPSHOT"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:npm/bootstrap@5.2.3",
+      "type": "application",
+      "name": "bootstrap",
+      "version": "5.2.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/bootstrap@5.2.3"
+    },
+    {
+      "bom-ref": "pkg:maven/ch.qos.logback:logback-classic@1.4.8",
+      "type": "application",
+      "name": "ch.qos.logback:logback-classic",
+      "version": "1.4.8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e6d9c1208bf664c427b9f5fe970b8372f794247473693c3f5d2440fa6b7bb527"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback:logback-classic@1.4.8"
+    },
+    {
+      "bom-ref": "pkg:maven/ch.qos.logback:logback-core@1.4.8",
+      "type": "application",
+      "name": "ch.qos.logback:logback-core",
+      "version": "1.4.8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "123453142b41b627bc0d035d1fee8c1ed4deafacfbdacbe3a238934c19a0627a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1-only",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.logback:logback-core@1.4.8"
+    },
+    {
+      "bom-ref": "pkg:generic/checker-qual-3.31.0.jar",
+      "type": "application",
+      "name": "checker-qual-3.31.0.jar",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1cef5f476d22c6fb45387ddd8404f5e821cbd66487be1bdf8ee64871e63451b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:generic/checker-qual-3.31.0.jar"
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core:jackson-annotations@2.15.2",
+      "type": "application",
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
+      "version": "2.15.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "04e21f94dcfee4b078fa5a5f53047b785aaba69d19de392f616e7a7fe5d3882f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core:jackson-annotations@2.15.2"
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core:jackson-core@2.15.2",
+      "type": "application",
+      "name": "com.fasterxml.jackson.core:jackson-core",
+      "version": "2.15.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "303c99e82b1faa91a0bae5d8fbeb56f7e2adf9b526a900dd723bf140d62bd4b4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core:jackson-core@2.15.2"
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core:jackson-databind@2.15.2",
+      "type": "application",
+      "name": "com.fasterxml.jackson.core:jackson-databind",
+      "version": "2.15.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0eb2fdad6e40ab8832a78c9b22f58196dd970594e8d3d5a26ead87847c4f3a96"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core:jackson-databind@2.15.2"
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.15.2",
+      "type": "application",
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+      "version": "2.15.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5be6e20504b1eab7a40f98c4f98bd92e9177d6e6e20f183928e7d207fc66cb78"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.15.2"
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.15.2",
+      "type": "application",
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+      "version": "2.15.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7574c81ad570476ef6aad26f419288fd466733f3315bee3012f2f29c9dc008c8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.15.2"
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.module:jackson-module-parameter-names@2.15.2",
+      "type": "application",
+      "name": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+      "version": "2.15.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2f624e16373508f8e3a1535f5a6e9d80286b87a899fd128e5fded268625fe913"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.module:jackson-module-parameter-names@2.15.2"
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml:classmate@1.5.1",
+      "type": "application",
+      "name": "com.fasterxml:classmate",
+      "version": "1.5.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aab4de3006808c09d25dd4ff4a3611cfb63c95463cfd99e73d2e1680d229a33b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml:classmate@1.5.1"
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.ben-manes.caffeine:caffeine@3.1.6",
+      "type": "application",
+      "name": "com.github.ben-manes.caffeine:caffeine",
+      "version": "3.1.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0311f9d5d9750aa2a1c11cbdba5a5cb7fec91c8870d6f179f324b3f5295b87dd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.ben-manes.caffeine:caffeine@3.1.6"
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.errorprone:error_prone_annotations@2.18.0",
+      "type": "application",
+      "name": "com.google.errorprone:error_prone_annotations",
+      "version": "2.18.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone:error_prone_annotations@2.18.0"
+    },
+    {
+      "bom-ref": "pkg:maven/com.h2database:h2@2.1.214",
+      "type": "application",
+      "name": "com.h2database:h2",
+      "version": "2.1.214",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d623cdc0f61d218cf549a8d09f1c391ff91096116b22e2475475fce4fbe72bd0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        },
+        {
+          "license": {
+            "id": "MPL-2.0",
+            "url": "http://opensource.org/licenses/MPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.h2database:h2@2.1.214"
+    },
+    {
+      "bom-ref": "pkg:maven/com.sun.istack:istack-commons-runtime@4.1.2",
+      "type": "application",
+      "name": "com.sun.istack:istack-commons-runtime",
+      "version": "4.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7fd6792361f4dd00f8c56af4a20cecc0066deea4a8f3dec38348af23fc2296ee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.istack:istack-commons-runtime@4.1.2"
+    },
+    {
+      "bom-ref": "pkg:maven/com.zaxxer:HikariCP@5.0.1",
+      "type": "application",
+      "name": "com.zaxxer:HikariCP",
+      "version": "5.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "26d492397e6775b4296737a8919bf04047afe5827fdd2c08b4557595436b3a2b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.zaxxer:HikariCP@5.0.1"
+    },
+    {
+      "bom-ref": "pkg:npm/font-awesome@4.7.0",
+      "type": "application",
+      "name": "font-awesome",
+      "version": "4.7.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+          }
+        },
+        {
+          "license": {
+            "id": "OFL-1.1",
+            "url": "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web"
+          }
+        }
+      ],
+      "purl": "pkg:npm/font-awesome@4.7.0"
+    },
+    {
+      "bom-ref": "pkg:generic/hibernate-core-6.2.5.Final.jar",
+      "type": "application",
+      "name": "hibernate-core-6.2.5.Final.jar",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "110a43e415309559f4ee0fd06abd20649cbb933011de68b7e00ac59e6b0c7d04"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:generic/hibernate-core-6.2.5.Final.jar"
+    },
+    {
+      "bom-ref": "pkg:maven/io.micrometer:micrometer-core@1.11.1",
+      "type": "application",
+      "name": "io.micrometer:micrometer-core",
+      "version": "1.11.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a4a9903415d847e5c0b5f025f32dbdc871c3a7afa4be3049418c3e9dcba4b615"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.micrometer:micrometer-core@1.11.1"
+    },
+    {
+      "bom-ref": "pkg:maven/io.smallrye:jandex@3.0.5",
+      "type": "application",
+      "name": "io.smallrye:jandex",
+      "version": "3.0.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "37ab98fc10e5341dd6697f39811b08f69de00fbb7b88929ef0fef68b765db5f1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.smallrye:jandex@3.0.5"
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.activation:jakarta.activation-api@2.1.2",
+      "type": "application",
+      "name": "jakarta.activation:jakarta.activation-api",
+      "version": "2.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f53f578dd0eb4170c195a4e215c59a38abfb4123dcb95dd902fef92876499fbb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "name": "EDL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.activation:jakarta.activation-api@2.1.2"
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.annotation:jakarta.annotation-api@2.1.1",
+      "type": "application",
+      "name": "jakarta.annotation:jakarta.annotation-api",
+      "version": "2.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5f65fdaf424eee2b55e1d882ba9bb376be93fb09b37b808be6e22e8851c909fe"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0",
+            "url": "https://spdx.org/licenses/EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0",
+            "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0+CE",
+            "url": "http://www.gnu.org/software/classpath/license.html"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.0",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.annotation:jakarta.annotation-api@2.1.1"
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.inject:jakarta.inject-api@2.0.1",
+      "type": "application",
+      "name": "jakarta.inject:jakarta.inject-api",
+      "version": "2.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f7dc98062fccf14126abb751b64fab12c312566e8cbdc8483598bffcea93af7c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.inject:jakarta.inject-api@2.0.1"
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.persistence:jakarta.persistence-api@3.1.0",
+      "type": "application",
+      "name": "jakarta.persistence:jakarta.persistence-api",
+      "version": "3.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "475389446d35c6f46c565728b756dc508c284644ea2690644e0d8e7e339d42fd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-2.0",
+            "url": "https://spdx.org/licenses/EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.persistence:jakarta.persistence-api@3.1.0"
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.transaction:jakarta.transaction-api@2.0.1",
+      "type": "application",
+      "name": "jakarta.transaction:jakarta.transaction-api",
+      "version": "2.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "50c0a7c760c13ae6c042acf182b28f0047413db95b4636fb8879bcffab5ba875"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0",
+            "url": "https://spdx.org/licenses/EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0",
+            "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+          }
+        },
+        {
+          "license": {
+            "name": "GPL-2.0+CE",
+            "url": "http://www.gnu.org/software/classpath/license.html"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.0",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.transaction:jakarta.transaction-api@2.0.1"
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.validation:jakarta.validation-api@3.0.2",
+      "type": "application",
+      "name": "jakarta.validation:jakarta.validation-api",
+      "version": "3.0.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "291c25e6910cc6a7ebd96d4c6baebf6d7c37676c5482c2d96146e901b62c1fc9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.validation:jakarta.validation-api@3.0.2"
+    },
+    {
+      "bom-ref": "pkg:maven/jakarta.xml.bind:jakarta.xml.bind-api@4.0.0",
+      "type": "application",
+      "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+      "version": "4.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "57e3796ad5753640088f5f9d3c53c183f2c250b7dad90529ea3e19a5515aa122"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.xml.bind:jakarta.xml.bind-api@4.0.0"
+    },
+    {
+      "bom-ref": "pkg:maven/javax.cache:cache-api@1.1.1",
+      "type": "application",
+      "name": "javax.cache:cache-api",
+      "version": "1.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9f34e007edfa82a7b2a2e1b969477dcf5099ce7f4f926fb54ce7e27c4a0cd54b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.cache:cache-api@1.1.1"
+    },
+    {
+      "bom-ref": "pkg:generic/micrometer-commons-1.11.1.jar",
+      "type": "application",
+      "name": "micrometer-commons-1.11.1.jar",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d2ed55c8abac6fce3b000c67316d2e654992cf7f73c74385169a9d3964497416"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:generic/micrometer-commons-1.11.1.jar"
+    },
+    {
+      "bom-ref": "pkg:generic/micrometer-observation-1.11.1.jar",
+      "type": "application",
+      "name": "micrometer-observation-1.11.1.jar",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7c7624febf402f983f61e7da0c26fb303c0ab507fdfa25db06ae6c2776ed9ffa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:generic/micrometer-observation-1.11.1.jar"
+    },
+    {
+      "bom-ref": "pkg:generic/mysql-connector-j-8.0.33.jar",
+      "type": "application",
+      "name": "mysql-connector-j-8.0.33.jar",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e2a3b2fc726a1ac64e998585db86b30fa8bf3f706195b78bb77c5f99bf877bd9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0",
+            "url": "http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-GCC-exception",
+            "url": "https://gcc.gnu.org/git/?p=gcc.git;a=blob;f=gcc/libgcc1.c;h=762f5143fc6eed57b6797c82710f3538aa52b40b;hb=cb143a3ce4fb417c68f5fa2691a1b1b1053dfba9#l10"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.0",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
+          }
+        },
+        {
+          "license": {
+            "id": "LGPL-2.1",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+          }
+        }
+      ],
+      "purl": "pkg:generic/mysql-connector-j-8.0.33.jar"
+    },
+    {
+      "bom-ref": "pkg:maven/net.bytebuddy:byte-buddy@1.14.5",
+      "type": "application",
+      "name": "net.bytebuddy:byte-buddy",
+      "version": "1.14.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e99761a526df0fefbbd3fe14436b0f953000cdfa5151dc63c0b18d37d9c46f1c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.bytebuddy:byte-buddy@1.14.5"
+    },
+    {
+      "bom-ref": "pkg:maven/one.gfw:aspectjweaver@1.9.19",
+      "type": "application",
+      "name": "one.gfw:aspectjweaver",
+      "version": "1.9.19",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "36d9a05d11ee431c00f20edd53a84f9f9771b6296af9c5c1e31f7e037c6ecc97"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-2.0",
+            "url": "https://spdx.org/licenses/EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/one.gfw:aspectjweaver@1.9.19"
+    },
+    {
+      "bom-ref": "pkg:maven/org.antlr:antlr4-runtime@4.10.1",
+      "type": "application",
+      "name": "org.antlr:antlr4-runtime",
+      "version": "4.10.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "da66be0c98acfb29bc708300d05f1a3269c40f9984a4cb9251cf2ba1898d1334"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.antlr:antlr4-runtime@4.10.1"
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.logging.log4j:log4j-api@2.20.0",
+      "type": "application",
+      "name": "org.apache.logging.log4j:log4j-api",
+      "version": "2.20.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2f43eea679ea66f14ca0f13fec2a8600ac124f5a5231dcb4df8393eddcb97550"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j:log4j-api@2.20.0"
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.logging.log4j:log4j-to-slf4j@2.20.0",
+      "type": "application",
+      "name": "org.apache.logging.log4j:log4j-to-slf4j",
+      "version": "2.20.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "88e731d7f455da59dfa08769527f87d6c496053a712637df7b999f6977933a2c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.logging.log4j:log4j-to-slf4j@2.20.0"
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed:tomcat-embed-core@10.1.10",
+      "type": "application",
+      "name": "org.apache.tomcat.embed:tomcat-embed-core",
+      "version": "10.1.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7c50655e94ca4e32ffc9ee0f96aa378722a145fe063cda2f2c3ae307be27196b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "CDDL-1.0",
+            "url": "http://www.opensource.org/licenses/cddl1"
+          }
+        },
+        {
+          "license": {
+            "id": "CDDL-1.1",
+            "url": "http://glassfish.java.net/public/CDDL+GPL_1_1.html"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-2.0",
+            "url": "https://spdx.org/licenses/EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed:tomcat-embed-core@10.1.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed:tomcat-embed-el@10.1.10",
+      "type": "application",
+      "name": "org.apache.tomcat.embed:tomcat-embed-el",
+      "version": "10.1.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "125d0bed2f3214d4bb0ab7b5cb8f71db306875feb77c2f0f480d1723b385b8c7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed:tomcat-embed-el@10.1.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.tomcat.embed:tomcat-embed-websocket@10.1.10",
+      "type": "application",
+      "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+      "version": "10.1.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "09785bdd08dc81744ade48b46afb29f9f146f112703eb013c7127e34373c8816"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.tomcat.embed:tomcat-embed-websocket@10.1.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.aspectj:aspectjweaver@1.9.19",
+      "type": "application",
+      "name": "org.aspectj:aspectjweaver",
+      "version": "1.9.19",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "36d9a05d11ee431c00f20edd53a84f9f9771b6296af9c5c1e31f7e037c6ecc97"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0",
+            "url": "https://spdx.org/licenses/EPL-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.aspectj:aspectjweaver@1.9.19"
+    },
+    {
+      "bom-ref": "pkg:maven/org.attoparser:attoparser@2.0.6.RELEASE",
+      "type": "application",
+      "name": "org.attoparser:attoparser",
+      "version": "2.0.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cf88ca8bfddfd8b590b82a52f61462c025c0f99bdb0c1a45cb565106fbcb4f3e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.attoparser:attoparser@2.0.6.RELEASE"
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.angus:angus-activation@2.0.1",
+      "type": "application",
+      "name": "org.eclipse.angus:angus-activation",
+      "version": "2.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b226761815868edf8964c1d71e6d2d54ab238c2788507061b4e0633933b4c131"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.angus:angus-activation@2.0.1"
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jaxb:jaxb-core@4.0.3",
+      "type": "application",
+      "name": "org.glassfish.jaxb:jaxb-core",
+      "version": "4.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d6d75c422752684fbf04dd74a21698feae0e4a406c2892b5af02d23dc97b2ac6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb:jaxb-core@4.0.3"
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jaxb:jaxb-runtime@4.0.3",
+      "type": "application",
+      "name": "org.glassfish.jaxb:jaxb-runtime",
+      "version": "4.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "795e2dbdd3e64c8ba7e532e35f83136603931a8e9a3b5ffeb05f9f483adab6e0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb:jaxb-runtime@4.0.3"
+    },
+    {
+      "bom-ref": "pkg:maven/org.glassfish.jaxb:txw2@4.0.3",
+      "type": "application",
+      "name": "org.glassfish.jaxb:txw2",
+      "version": "4.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "df07a51801b995e44aec9a95ef875d95fbb8de2874417de6066d84f731cb9e9c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "http://opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.glassfish.jaxb:txw2@4.0.3"
+    },
+    {
+      "bom-ref": "pkg:maven/org.hdrhistogram:HdrHistogram@2.1.12",
+      "type": "application",
+      "name": "org.hdrhistogram:HdrHistogram",
+      "version": "2.1.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9b47fbae444feaac4b7e04f0ea294569e4bc282bc69d8c2ce2ac3f23577281e2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "url": "http://opensource.org/licenses/BSD-2-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "CC0-1.0",
+            "url": "http://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hdrhistogram:HdrHistogram@2.1.12"
+    },
+    {
+      "bom-ref": "pkg:maven/org.hibernate.common:hibernate-commons-annotations@6.0.6.Final",
+      "type": "application",
+      "name": "org.hibernate.common:hibernate-commons-annotations",
+      "version": "6.0.6.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cd974e0a8481fafdbaf9b4a0f08bb5a6c969b0365482763eedf77e6fd7f493b7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only",
+            "url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hibernate.common:hibernate-commons-annotations@6.0.6.Final"
+    },
+    {
+      "bom-ref": "pkg:maven/org.hibernate.validator:hibernate-validator@8.0.0.Final",
+      "type": "application",
+      "name": "org.hibernate.validator:hibernate-validator",
+      "version": "8.0.0.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "57a32cda0583444b19d02fd76c7b4f23035cdb877e0b6c73e834380094e22145"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.hibernate.validator:hibernate-validator@8.0.0.Final"
+    },
+    {
+      "bom-ref": "pkg:maven/org.jboss.logging:jboss-logging@3.5.1.Final",
+      "type": "application",
+      "name": "org.jboss.logging:jboss-logging",
+      "version": "3.5.1.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4be7747b755c0bbdd358e952fc760ccf5dcc18d3b78df52c8ae1a6c97f3a8f12"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logging:jboss-logging@3.5.1.Final"
+    },
+    {
+      "bom-ref": "pkg:maven/org.latencyutils:LatencyUtils@2.0.3",
+      "type": "application",
+      "name": "org.latencyutils:LatencyUtils",
+      "version": "2.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a32a9ffa06b2f4e01c5360f8f9df7bc5d9454a5d373cd8f361347fa5a57165ec"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CC0-1.0",
+            "url": "http://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.latencyutils:LatencyUtils@2.0.3"
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j:jul-to-slf4j@2.0.7",
+      "type": "application",
+      "name": "org.slf4j:jul-to-slf4j",
+      "version": "2.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eaba65483bb38c93e68d557a19e5738962322de1946545dbf40e5e32f6293008"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j:jul-to-slf4j@2.0.7"
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j:slf4j-api@2.0.7",
+      "type": "application",
+      "name": "org.slf4j:slf4j-api",
+      "version": "2.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5d6298b93a1905c32cda6478808ac14c2d4a47e91535e53c41f7feeb85d946f4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j:slf4j-api@2.0.7"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot:spring-boot@3.1.1",
+      "type": "application",
+      "name": "org.springframework.boot:spring-boot",
+      "version": "3.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3b0037f887423d8b73d375f72cf97769b68f918b31898b7d401f832b9a4889ba"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot:spring-boot@3.1.1"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot:spring-boot-actuator@3.1.1",
+      "type": "application",
+      "name": "org.springframework.boot:spring-boot-actuator",
+      "version": "3.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e12ca458088007d03e2ff6dedda9831ffa483c5d2e38a7bb3930fcc8a968b6f6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot:spring-boot-actuator@3.1.1"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot:spring-boot-actuator-autoconfigure@3.1.1",
+      "type": "application",
+      "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+      "version": "3.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a09d5cdf6050653a94589b42a64943dcd4a4c01253235081421832ec6f6d0262"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot:spring-boot-actuator-autoconfigure@3.1.1"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot:spring-boot-autoconfigure@3.1.1",
+      "type": "application",
+      "name": "org.springframework.boot:spring-boot-autoconfigure",
+      "version": "3.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0b50df9077898c6f1846acf08c6f8bfda101fb4c1bb417d795fb0c4a1ca1089b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot:spring-boot-autoconfigure@3.1.1"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.data:spring-data-commons@3.1.1",
+      "type": "application",
+      "name": "org.springframework.data:spring-data-commons",
+      "version": "3.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8f6839150857bc41abaff80bd8c8eb75b8287d452f84f2cd53eeb69b268af741"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.data:spring-data-commons@3.1.1"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.data:spring-data-jpa@3.1.1",
+      "type": "application",
+      "name": "org.springframework.data:spring-data-jpa",
+      "version": "3.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "291ed1e5d79f2091ef3fdedb7557ad307a2d367a3c17b41ac3ea39e2a1427a1c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.data:spring-data-jpa@3.1.1"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.samples:spring-petclinic@3.1.0-SNAPSHOT",
+      "type": "application",
+      "name": "org.springframework.samples:spring-petclinic",
+      "version": "3.1.0-SNAPSHOT",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fcb94c411018f8de57f0e4048cb5cf6b580cd575eeb733ac82eabb3237e8a10c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.samples:spring-petclinic@3.1.0-SNAPSHOT"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-aop@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-aop",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "60c4d4529b25157c8bdf26747f0e61f76d45fe1ec4918745cbcc8f8115b70ad1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-aop@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-aspects@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-aspects",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3e025050c993dee30ee05f91a5fce8251b1cc71621467975ef7c158dd46932bf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-aspects@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-beans@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-beans",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9f7719bdabe01302c502160b08f2ab45df242edb46e972486f08aa2be5c77f2d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-beans@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-context@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-context",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7621b05384de2f2faf77403fc46964a57c0c040c265681c3a897386390f130b9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-context@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-core@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-core",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1c0a6bf9cccfa8bbe6ab49c13963c1abb2edff81d88b1af7462617ddc7c0975d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-core@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-expression@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-expression",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "af44e25931b885dfe23dc700fbcc1c1e3b6dfd19fbee52aab46d89efd45bca69"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-expression@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-jcl@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-jcl",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "323209c83374e9e4c0785311334862fef23755b24c3c0ef94af57313336d6c30"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-jcl@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-jdbc@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-jdbc",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3e164dfc0ebc53fffc6b139763e01591c72bab7c127361249cfb57aaedf87ea1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-jdbc@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-orm@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-orm",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1d9f6fd0c7e0a28be7161267a61f110b2a64b0fbe1da275ac58bf8aa265e006c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-orm@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-tx@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-tx",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e080c544943adac180f3340342d72483f617e2641fe4bb2c74584757291abb4a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-tx@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-web@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-web",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "42a9efbe8681be4d918a363348ba2bea131ce6362c0aa7260f17fd8f5c544375"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-web@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework:spring-webmvc@6.0.10",
+      "type": "application",
+      "name": "org.springframework:spring-webmvc",
+      "version": "6.0.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e978e1ea761efcbef540a7038ca85ded2484fb3937eb5691da184a05e909aaf8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework:spring-webmvc@6.0.10"
+    },
+    {
+      "bom-ref": "pkg:maven/org.thymeleaf:thymeleaf@3.1.1.RELEASE",
+      "type": "application",
+      "name": "org.thymeleaf:thymeleaf",
+      "version": "3.1.1.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fceeb26bfd5836b3ab012d9fd6dd50b012fd12a5bddacc0150764a2793fd2703"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.thymeleaf:thymeleaf@3.1.1.RELEASE"
+    },
+    {
+      "bom-ref": "pkg:maven/org.thymeleaf:thymeleaf-spring6@3.1.1.RELEASE",
+      "type": "application",
+      "name": "org.thymeleaf:thymeleaf-spring6",
+      "version": "3.1.1.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6637b0998a771ed3cc4ad0d01a72592b246518735a38f013ed301cb95f6b924b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.thymeleaf:thymeleaf-spring6@3.1.1.RELEASE"
+    },
+    {
+      "bom-ref": "pkg:maven/org.unbescape:unbescape@1.1.6.RELEASE",
+      "type": "application",
+      "name": "org.unbescape:unbescape",
+      "version": "1.1.6.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "597cf87d5b1a4f385b9d1cec974b7b483abb3ee85fc5b3f8b62af8e4bec95c2c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.unbescape:unbescape@1.1.6.RELEASE"
+    },
+    {
+      "bom-ref": "pkg:maven/org.webjars.npm:bootstrap@5.2.3",
+      "type": "application",
+      "name": "org.webjars.npm:bootstrap",
+      "version": "5.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "75b167854dfade971a4b51a8934718e8a215347d7f7074e0ba48a12b2e6ce1d2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.webjars.npm:bootstrap@5.2.3"
+    },
+    {
+      "bom-ref": "pkg:maven/org.webjars.npm:font-awesome@4.7.0",
+      "type": "application",
+      "name": "org.webjars.npm:font-awesome",
+      "version": "4.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d786751120afe993113902d3eaccb4f596cfd5c98583a2abd76f6a57a8af865a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Openfont-1.1",
+            "url": "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.webjars.npm:font-awesome@4.7.0"
+    },
+    {
+      "bom-ref": "pkg:maven/org.yaml:snakeyaml@1.33",
+      "type": "application",
+      "name": "org.yaml:snakeyaml",
+      "version": "1.33",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "11ff459788f0a2d781f56a4a86d7e69202cebacd0273d5269c4ae9f02f3fd8f0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.yaml:snakeyaml@1.33"
+    },
+    {
+      "bom-ref": "pkg:generic/postgresql-42.6.0.jar",
+      "type": "application",
+      "name": "postgresql-42.6.0.jar",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b817c67a40c94249fd59d4e686e3327ed0d3d3fae426b20da0f1e75652cfc461"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause",
+            "url": "http://opensource.org/licenses/BSD-2-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:generic/postgresql-42.6.0.jar"
+    },
+    {
+      "bom-ref": "pkg:generic/spring-boot-jarmode-layertools-3.1.1.jar",
+      "type": "application",
+      "name": "spring-boot-jarmode-layertools-3.1.1.jar",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f7468f09f5d165adfe771240e8c40b1ac7d0207576a77ccf50ad39eaead69358"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:generic/spring-boot-jarmode-layertools-3.1.1.jar"
+    },
+    {
+      "bom-ref": "pkg:generic/spring-context-support-6.0.10.jar",
+      "type": "application",
+      "name": "spring-context-support-6.0.10.jar",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2602fa444c5dc62905a3332d718afef2f0643fea99a496b1f415085912cc26bd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "http://licenses.nuget.org/Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-4-Clause",
+            "url": "http://directory.fsf.org/wiki/License:BSD_4Clause"
+          }
+        }
+      ],
+      "purl": "pkg:generic/spring-context-support-6.0.10.jar"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "bom-ref": "pkg:maven/org.yaml:snakeyaml@1.33",
+      "id": "CVE-2022-1471",
+      "analysis": {
+        "state": "not_affected",
+        "justification": "code_not_reachable",
+        "detail": "The vulnerable function Yaml.load is not called"
+      }
+    },
+    {
+      "bom-ref": "pkg:maven/com.h2database:h2@2.1.214",
+      "id": "CVE-2022-45868",
+      "analysis": {
+        "state": "in_triage",
+        "detail": "There are no applicability scanners for this specific CVE"
+      }
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core:jackson-databind@2.15.2",
+      "id": "CVE-2023-35116",
+      "analysis": {
+        "state": "exploitable",
+        "detail": "At least one of the vulnerable functions writeValueAsString, writeValueAsBytes, writeValue, serializeValue is called with external input"
+      }
+    }
+  ]
+}
