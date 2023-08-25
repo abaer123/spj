@@ -114,7 +114,7 @@ node {
 //       } */
 //    }
    
-}
+// }
 
 // def postGitHub(commitId, state, context, description, target_url="http://localhost:8080") {
 //          def payload = JsonOutput.toJson(
