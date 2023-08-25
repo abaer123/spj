@@ -7,7 +7,7 @@ node {
     // def buildInfo
 
     stage('Clone sources') {
-        git url: 'https://github.com/abaer123/spj.git'
+        git 'https://github.com/abaer123/spj.git'
     }
 
     // stage('Artifactory configuration') {
