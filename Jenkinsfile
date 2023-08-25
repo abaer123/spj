@@ -20,17 +20,17 @@ node {
 
     stage('Maven build') {
         // buildInfo = rtMaven.run pom: 'maven-example/pom.xml', goals: 'clean install'
-        sh './mvnw  -B -Dmaven.test.failure.ignore compile'
+        sh "./mvnw  -B -Dmaven.test.failure.ignore compile"
     }
 
     stage('Maven test') {
         // buildInfo = rtMaven.run pom: 'maven-example/pom.xml', goals: 'clean install'
-        sh './mvnw  -B -Dmaven.test.failure.ignore test'
+        sh "./mvnw  -B -Dmaven.test.failure.ignore test"
     }
 
     stage('Maven deploy') {
         // buildInfo = rtMaven.run pom: 'maven-example/pom.xml', goals: 'clean install'
-        sh './mvnw  -B -Dmaven.test.failure.ignore test'
+        sh ""./mvnw  -B -Dmaven.test.failure.ignore test"
     }
 
     // stage('Publish build info') {
