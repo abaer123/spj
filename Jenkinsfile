@@ -6,9 +6,9 @@ pipeline {
         stage('Build-Test-Deploy') {
             steps {
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/abaer123/spj.git']])
-                sh './mvnw  -B -Dmaven.test.failure.ignore compile'
-                sh './mvnw  -B -Dmaven.test.failure.ignore test'
-                sh './mvnw  -B -Dmaven.test.failure.ignore deploy'
+                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml clean install -U'
+                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml test'
+                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml deploy'
             }
         }
         
