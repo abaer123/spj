@@ -13,12 +13,12 @@ pipeline{
 
         stage('Build') {
             steps {
-                 sh './mvnw  -B -Dmaven.test.failure.ignore compile'
+                 sh 'mvnw  -B -Dmaven.test.failure.ignore compile'
             }
         }
 
 
-        
+
     }
 }
 
