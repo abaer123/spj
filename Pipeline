@@ -1,0 +1,10 @@
+
+//Pipeline script to checkout code
+checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/abaer123/spj.git']])
+
+// Maven compile
+sh './mvnw  -B -Dmaven.test.failure.ignore compile'
+
+//Maven test
+sh './mvnw  -B -Dmaven.test.failure.ignore test'
+
