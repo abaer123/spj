@@ -12,6 +12,15 @@
   </parent>
   <name>petclinic</name>
 
+
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0sag754tz43d-artifactory-primary-0-snapshots</name>
+        <url>https://abaer123.jfrog.io/artifactory/spj-libs-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <properties>
 
     <!-- Generic properties -->
