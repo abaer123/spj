@@ -17,10 +17,9 @@
    - It allows you to enter owner information and pets associated.
    - It also allow you to set up appointments for care.
    - from the docker image built, you can run the container using the command 'docker run -p 9080:8080 spring-petclinic' and navigate to localhost:9080 to access it.
-   - I have saed the docker image as a .tar file as well and included it in the repostory.
+   - I have saved the docker image as a .tar file.  I can't add it to the repo - says it is too big. (25MB limit).
   
  
-
 ## Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
 
