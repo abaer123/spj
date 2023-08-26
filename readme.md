@@ -5,8 +5,8 @@
 
 ## Notes:
 - Run container image using command "docker run -p 9090:8080 spring-petclinic:latest" since my port 8080 was running Jenkins. 
-- Deploying to Artifactory https://abaer123.jfrog.io/ui/repos/tree/General/libs-snapshot  See "settings.xml" and "pom.xml" files.  Need to fix test failure on deploy. 
-- Maven build SBOM included with file "Maven_SBOM_Export.json"
+- Deploying to Artifactory https://abaer123.jfrog.io/ui/repos/tree/General/libs-snapshot  See "settings.xml"(from my .m2 directory) and "pom.xml" files.  
+- Maven build SBOM included as screenshot "SBOM-Partial.png"
 - Installed the JFrog plugin into VS Code to analyze my code pre-commit
 
 
