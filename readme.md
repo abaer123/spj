@@ -7,6 +7,7 @@
 - Deploying to Artifactory https://abaer123.jfrog.io/ui/repos/tree/General/libs-snapshot  See "settings.xml"(from my .m2 directory) and "pom.xml" files.  
 - Maven build SBOM included as screenshot "SBOM-Partial.png"
 - Installed the JFrog plugin into VS Code to analyze my code pre-commit
+- TODO: Set up JCenter for dependencies.
 
 ### Deliverablee
 1. GitHub [link]([url](https://github.com/abaer123/spj)) to the repo including: Repo: https://github.com/abaer123/spj
