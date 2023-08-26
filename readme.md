@@ -2,15 +2,24 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
 
-
 ## Notes:
 - Run container image using command "docker run -p 9090:8080 spring-petclinic:latest" since my port 8080 was running Jenkins. 
 - Deploying to Artifactory https://abaer123.jfrog.io/ui/repos/tree/General/libs-snapshot  See "settings.xml"(from my .m2 directory) and "pom.xml" files.  
 - Maven build SBOM included as screenshot "SBOM-Partial.png"
 - Installed the JFrog plugin into VS Code to analyze my code pre-commit
 
-
-
+### Deliverablee
+1. GitHub [link]([url](https://github.com/abaer123/spj)) to the repo including: Repo: https://github.com/abaer123/spj
+1. [Jenkins file]([url](https://github.com/abaer123/spj/blob/main/Jenkinsfile)) within that repo Jenkinsfile: https://github.com/abaer123/spj/blob/main/Jenkinsfile
+2. [Docker file]([url](https://github.com/abaer123/spj/blob/main/Dockerfile)) within that repo Dockerfile: https://github.com/abaer123/spj/blob/main/Dockerfile
+3. readme.md file explaining the work and how to run the project:
+   - pet-clinic is a pet owner and pet application
+   - It allows you to enter owner information and pets associated.
+   - It also allow you to set up appointments for care.
+   - from the docker image built, you can run the container using the command 'docker run -p 9080:8080 spring-petclinic' and navigate to localhost:9080 to access it.
+   - I have saed the docker image as a .tar file as well and included it in the repostory.
+  
+ 
 
 ## Understanding the Spring Petclinic application with a few diagrams
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
