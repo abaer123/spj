@@ -3,7 +3,7 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
 
 ## Notes:
-- Run container image using command "docker run -p 9090:8080 spring-petclinic:latest" since my port 8080 was running Jenkins. 
+- Run container image using command "docker run -p 9080:8080 spring-petclinic" since my port 8080 was running Jenkins. 
 - Deploying to Artifactory https://abaer123.jfrog.io/ui/repos/tree/General/libs-snapshot  See "settings.xml"(from my .m2 directory) and "pom.xml" files.  
 - Maven build SBOM included as screenshot "SBOM-Partial.png"
 - Installed the JFrog plugin into VS Code to analyze my code pre-commit
@@ -18,8 +18,8 @@
    - pet-clinic is a pet owner and pet application
    - It allows you to enter owner information and pets associated.
    - It also allow you to set up appointments for care.
-   - from the docker image built, you can run the container using the command 'docker run -p 9080:8080 spring-petclinic' and navigate to localhost:9080 to access it.
-   - I have saved the docker image as a .tar file.  I can't add it to the repo - says it is too big. (25MB limit).
+   - from the docker image built, you can run the container using the command 'docker run -p 9080:8080 spring-petclinic' and navigate to localhost:9080 using a web browser to access it.
+   - I have saved the spring-petclinic docker image as a .tar file within my script.  I can't add it to the repo - says it is too big. (25MB limit).
   
  
 ## Understanding the Spring Petclinic application with a few diagrams
