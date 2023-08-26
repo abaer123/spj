@@ -7,6 +7,7 @@
 - Deploying to Artifactory https://abaer123.jfrog.io/ui/repos/tree/General/libs-snapshot  See "settings.xml"(from my .m2 directory) and "pom.xml" files.  
 - Maven build SBOM included as screenshot "SBOM-Partial.png"
 - Installed the JFrog plugin into VS Code to analyze my code pre-commit
+- Added Vulnerability Report to repository from JFrog X-Ray
 - TODO: Set up JCenter for dependencies.
 
 ### Deliverablee
