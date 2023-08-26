@@ -35,8 +35,8 @@ pipeline {
          //Build and package Docker Image
          stage('Docker-Build-Package') { 
             steps {
-                docker build -t spring-petclinic:latest .
-                docker save spring-petclinic:latest > spring-petclinic.tar
+                'docker build -t spring-petclinic:latest .'
+                'docker save spring-petclinic:latest > spring-petclinic.tar'
             }
         }
         // put in jf docker scan here
