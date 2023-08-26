@@ -10,7 +10,7 @@
 - Added Vulnerability Report to repository from JFrog X-Ray
 - TODO: Set up JCenter for dependencies.
 
-### Deliverablee
+### Deliverables
 1. GitHub [link]([url](https://github.com/abaer123/spj)) to the repo including: Repo: https://github.com/abaer123/spj
 1. [Jenkins file]([url](https://github.com/abaer123/spj/blob/main/Jenkinsfile)) within that repo Jenkinsfile: https://github.com/abaer123/spj/blob/main/Jenkinsfile
 2. [Docker file]([url](https://github.com/abaer123/spj/blob/main/Dockerfile)) within that repo Dockerfile: https://github.com/abaer123/spj/blob/main/Dockerfile
