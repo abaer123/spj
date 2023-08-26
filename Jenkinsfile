@@ -3,7 +3,7 @@ import groovy.json.*
 pipeline {
     agent any
     stages {
-        stage('Build-Test-Deploy') {
+        stage('Checkout') {
             steps {
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/abaer123/spj.git']])
             //    sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml clean install -U'
@@ -11,7 +11,7 @@ pipeline {
              //   sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml deploy'
             }
         }
-         stage('Build-) {
+         stage('Build') {
             steps {
                 sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml compile -U'
               //  sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml test'
