@@ -32,11 +32,10 @@ pipeline {
                 sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml deploy'
             }
         }
-         //Build and package Docker Image
+         //Build and package Docker Image using shell script
          stage('Docker-Build-Package') { 
             steps {
-                'docker build -t spring-petclinic:latest .'
-                'docker save spring-petclinic:latest > spring-petclinic.tar'
+                sh './docker_build_package.sh'
             }
         }
         // put in jf docker scan here
