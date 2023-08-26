@@ -6,9 +6,16 @@ pipeline {
         stage('Build-Test-Deploy') {
             steps {
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/abaer123/spj.git']])
-                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml clean install -U'
-                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml test'
-                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml deploy'
+            //    sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml clean install -U'
+            //    sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml test'
+             //   sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml deploy'
+            }
+        }
+         stage('Build-) {
+            steps {
+                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml compile -U'
+              //  sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml test'
+              //  sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml deploy'
             }
         }
         
