@@ -321,7 +321,8 @@
       <name>Spring Snapshots</name>
       <url>https://repo.spring.io/snapshot</url>
       <snapshots>
-        <enabled>true</enabled>
+      <!-- disabled from true to false to force https -->
+        <enabled>false</enabled>
       </snapshots>
     </pluginRepository>
     <pluginRepository>
