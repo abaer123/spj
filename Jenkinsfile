@@ -9,30 +9,33 @@ pipeline {
     stages {
         //checkout source
         stage('Checkout') {
-
             steps {
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/abaer123/spj.git']])
             }
         }
+        
         // Compile source
          stage('Build') {
             steps {
-                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml compile -U'
+                sh './mvnw compile '
             }
         }
+        
         //Test Source
          stage('Test') {
             steps {
-                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml test'
+                sh './mvnw test'
             }
         }
-        //stage Deploy to deploy the jar file to Artifactory
+        
+        //stage Deploy to deploy the jar file to Artifactory using pom.xml repository definition.
          stage('Deploy') { 
             steps {
-                sh './mvnw  -B -Dmaven.test.failure.ignore -f pom.xml deploy'
+                sh './mvnw deploy'
             }
         }
-         //Build and package Docker Image using shell script
+        
+         //Build and package Docker Image using shell script to use Dockfile and save as .tar
          stage('Docker-Build-Package') { 
             steps {
                 sh './docker_build_package.sh'
