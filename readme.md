@@ -15,11 +15,14 @@
 1. [Jenkins file]([url](https://github.com/abaer123/spj/blob/main/Jenkinsfile)) within that repo Jenkinsfile: https://github.com/abaer123/spj/blob/main/Jenkinsfile
 2. [Docker file]([url](https://github.com/abaer123/spj/blob/main/Dockerfile)) within that repo Dockerfile: https://github.com/abaer123/spj/blob/main/Dockerfile
 3. readme.md file explaining the work and how to run the project:
-   - pet-clinic is a pet owner and pet application
+   - pet-clinic is a pet owner and pet application.
    - It allows you to enter owner information and pets associated.
    - It also allow you to set up appointments for care.
-   - from the docker image built, you can run the container using the command 'docker run -p 9080:8080 spring-petclinic' and navigate to localhost:9080 using a web browser to access it.
-   - I have saved the spring-petclinic docker image as a .tar file within my script.  I can't add it to the repo - says it is too big. (25MB limit).
+   - I built a pipeline to run on a Jenkins server to with maven targets to: Compile and Test the application.
+   - I acquired a trial license of the JFrog platform to take advantage of Artifactory, X-Ray, and the command line interface.
+   - The built application binary is pushed to Artifactory.
+   - I created a Dockerfile and script to build a Docker container, and save it to a tar file.
+   - From the docker image built, you can run the container using the command 'docker run -p 9080:8080 spring-petclinic:latest' and navigate to localhost:9080 using a web browser to access it.
   
  
 ## Understanding the Spring Petclinic application with a few diagrams
